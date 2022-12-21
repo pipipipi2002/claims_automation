@@ -19,6 +19,7 @@ pip3 install -r requirements.txt
 ## Using the programme
 1. Add all the files to be merged in a directory. Ensure that only files (not directory) are in it.
 - Files supported are `.pdf`, `.png`, `.jpg`, and `.jpeg`.
+- The program will merge the files in alphabetical order (appending the sequence in front of file name works too!).
 2. Run the programme
 ``` 
 python3 main.py [PATH_TO_DIRECTORY]
