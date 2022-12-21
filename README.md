@@ -5,7 +5,6 @@
 1. PDF/Image Merger
 
 ## System Requirements
-- MacOS (tested)
 - Python3 (tested)
 
 ## Setup
@@ -29,6 +28,7 @@ python3 main.py [PATH_TO_DIRECTORY]
 3. Two directories will be created:
 - `outputs`: Stores the merged files.
 - `converted_image`: The image that is converted to PDF during the merging process.
+Created files are appended with a timestamp in the format of `DDMMYY_HHMMSS`
 
 ## Advanced Settings
 Go to `parameters.py` for more configurations.
